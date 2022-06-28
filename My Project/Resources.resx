@@ -118,17 +118,35 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Veggie Burger.G16.watermarked.2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Downloads\Veggie Burger.G16.watermarked.2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="BR" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\..\Downloads\BR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Food Restaurant  24 Hours.G02.watermarked1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\..\Downloads\Food Restaurant  24 Hours.G02.watermarked.2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\..\..\Downloads\Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Hot Dog with Mustard.G03.watermarked.2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Downloads\Hot Dog with Mustard.G03.watermarked.2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cartoon Chicken Bucket.G03.watermarked.2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Downloads\Cartoon Chicken Bucket.G03.watermarked.2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Splashone" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\..\Downloads\Splashone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cartoon French fries.G03.watermarked.2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Downloads\Cartoon French fries.G03.watermarked.2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Downloads\Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fried Shrimp Noodle Soup.G03.watermarked.2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Downloads\Fried Shrimp Noodle Soup.G03.watermarked.2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="New York Style Pizza.G01.watermarked.2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Downloads\New York Style Pizza.G01.watermarked.2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Food Restaurant  24 Hours.G02.watermarked.2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\..\Downloads\Food Restaurant  24 Hours.G02.watermarked.2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,7 +154,7 @@
   <data name="Splash" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\..\..\Downloads\Splash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cartoon French fries.G03.watermarked.2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\..\..\Downloads\Cartoon French fries.G03.watermarked.2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Potato Wedges.G10.watermarked.2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Downloads\Potato Wedges.G10.watermarked.2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

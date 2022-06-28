@@ -246,6 +246,7 @@ Partial Class Main
         '
         'Button8
         '
+        Me.Button8.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Potato_Wedges_G10_watermarked_2k
         Me.Button8.Location = New System.Drawing.Point(152, 136)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(145, 136)
@@ -254,6 +255,8 @@ Partial Class Main
         '
         'Button9
         '
+        Me.Button9.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Fried_Shrimp_Noodle_Soup_G03_watermarked_2k
+        Me.Button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button9.Location = New System.Drawing.Point(7, 136)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(145, 136)
@@ -272,6 +275,8 @@ Partial Class Main
         '
         'Button4
         '
+        Me.Button4.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Hot_Dog_with_Mustard_G03_watermarked_2k
+        Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button4.Location = New System.Drawing.Point(442, 1)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(145, 136)
@@ -280,6 +285,8 @@ Partial Class Main
         '
         'Button3
         '
+        Me.Button3.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Veggie_Burger_G16_watermarked_2k
+        Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button3.Location = New System.Drawing.Point(297, 1)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(145, 136)
@@ -288,6 +295,8 @@ Partial Class Main
         '
         'Button2
         '
+        Me.Button2.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.New_York_Style_Pizza_G01_watermarked_2k
+        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button2.Location = New System.Drawing.Point(152, 1)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(145, 136)
@@ -296,6 +305,8 @@ Partial Class Main
         '
         'Button1
         '
+        Me.Button1.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Cartoon_Chicken_Bucket_G03_watermarked_2k
+        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button1.Location = New System.Drawing.Point(7, 1)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(145, 136)
@@ -363,7 +374,7 @@ Partial Class Main
         '
         Me.Label9.BackColor = System.Drawing.Color.White
         Me.Label9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label9.Location = New System.Drawing.Point(164, 88)
+        Me.Label9.Location = New System.Drawing.Point(161, 88)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(170, 48)
         Me.Label9.TabIndex = 11
@@ -371,7 +382,7 @@ Partial Class Main
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.POS_Fast_Food_Shop.My.Resources.Resources.Food_Restaurant__24_Hours_G02_watermarked1
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 11)
+        Me.PictureBox1.Location = New System.Drawing.Point(9, 15)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(146, 136)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -382,7 +393,7 @@ Partial Class Main
         '
         Me.Label3.BackColor = System.Drawing.Color.White
         Me.Label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label3.Location = New System.Drawing.Point(164, 23)
+        Me.Label3.Location = New System.Drawing.Point(161, 23)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(170, 48)
         Me.Label3.TabIndex = 9
