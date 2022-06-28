@@ -142,6 +142,8 @@ Partial Class Main
         '
         'Button32
         '
+        Me.Button32.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Disposable_Cup_with_Coffee_G06_watermarked_2k
+        Me.Button32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button32.Location = New System.Drawing.Point(586, 404)
         Me.Button32.Name = "Button32"
         Me.Button32.Size = New System.Drawing.Size(145, 136)
@@ -150,6 +152,8 @@ Partial Class Main
         '
         'Button33
         '
+        Me.Button33.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.AdeZ_Surprising_Soy_Drink_800ml_G03_watermarked_2k
+        Me.Button33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button33.Location = New System.Drawing.Point(442, 404)
         Me.Button33.Name = "Button33"
         Me.Button33.Size = New System.Drawing.Size(145, 136)
@@ -158,6 +162,8 @@ Partial Class Main
         '
         'Button34
         '
+        Me.Button34.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Soju_Original_Alcoholic_Beverage_G03_watermarked_2k
+        Me.Button34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button34.Location = New System.Drawing.Point(297, 404)
         Me.Button34.Name = "Button34"
         Me.Button34.Size = New System.Drawing.Size(145, 136)
@@ -166,6 +172,8 @@ Partial Class Main
         '
         'Button35
         '
+        Me.Button35.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Beverage_Can_Fanta_Mezzo_330ml_G03_watermarked_2k
+        Me.Button35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button35.Location = New System.Drawing.Point(152, 404)
         Me.Button35.Name = "Button35"
         Me.Button35.Size = New System.Drawing.Size(145, 136)
@@ -174,6 +182,8 @@ Partial Class Main
         '
         'Button36
         '
+        Me.Button36.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Beverage_Can_Coca_Cola_330ml_Tall_G03_watermarked_2k
+        Me.Button36.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button36.Location = New System.Drawing.Point(7, 404)
         Me.Button36.Name = "Button36"
         Me.Button36.Size = New System.Drawing.Size(145, 136)
@@ -182,6 +192,8 @@ Partial Class Main
         '
         'Button10
         '
+        Me.Button10.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Lorenz_Chipsletten_Mediterranean_Paprika_100g_G03_watermarked_2k
+        Me.Button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button10.Location = New System.Drawing.Point(586, 270)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(145, 136)
@@ -190,6 +202,8 @@ Partial Class Main
         '
         'Button11
         '
+        Me.Button11.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Wavy_Lays_Original_Potato_Chips_G03_watermarked_2k
+        Me.Button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button11.Location = New System.Drawing.Point(442, 270)
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(145, 136)
@@ -198,6 +212,8 @@ Partial Class Main
         '
         'Button12
         '
+        Me.Button12.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Chips_Packaging_G03_watermarked_2k
+        Me.Button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button12.Location = New System.Drawing.Point(297, 270)
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(145, 136)
@@ -206,6 +222,8 @@ Partial Class Main
         '
         'Button30
         '
+        Me.Button30.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Doritos_Cool_Ranch_Chips_G03_watermarked_2k
+        Me.Button30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button30.Location = New System.Drawing.Point(152, 270)
         Me.Button30.Name = "Button30"
         Me.Button30.Size = New System.Drawing.Size(145, 136)
@@ -214,6 +232,8 @@ Partial Class Main
         '
         'Button31
         '
+        Me.Button31.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Lays_Classic_Potato_Chips_G03_watermarked_2k
+        Me.Button31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button31.Location = New System.Drawing.Point(7, 270)
         Me.Button31.Name = "Button31"
         Me.Button31.Size = New System.Drawing.Size(145, 136)
@@ -222,6 +242,8 @@ Partial Class Main
         '
         'Button5
         '
+        Me.Button5.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Salad_Set_G03_watermarked_2k
+        Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button5.Location = New System.Drawing.Point(586, 136)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(145, 136)
@@ -230,6 +252,8 @@ Partial Class Main
         '
         'Button6
         '
+        Me.Button6.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Fried_Eggs_In_A_Pan_G03_watermarked_2k
+        Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button6.Location = New System.Drawing.Point(442, 136)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(145, 136)
@@ -238,6 +262,8 @@ Partial Class Main
         '
         'Button7
         '
+        Me.Button7.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Sausage_Croissant_G03_watermarked_2k
+        Me.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button7.Location = New System.Drawing.Point(297, 136)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(145, 136)
@@ -246,7 +272,8 @@ Partial Class Main
         '
         'Button8
         '
-        Me.Button8.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Potato_Wedges_G10_watermarked_2k
+        Me.Button8.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Potato_Wedges_G03_watermarked_2k
+        Me.Button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button8.Location = New System.Drawing.Point(152, 136)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(145, 136)
