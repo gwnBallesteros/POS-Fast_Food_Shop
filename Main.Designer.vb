@@ -726,7 +726,7 @@ Partial Class Main
         Me.lblChange.Name = "lblChange"
         Me.lblChange.Size = New System.Drawing.Size(235, 35)
         Me.lblChange.TabIndex = 7
-        Me.lblChange.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblChange.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'lblCash
         '
