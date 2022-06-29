@@ -79,9 +79,9 @@ Partial Class Main
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.cmbMop = New System.Windows.Forms.ComboBox()
+        Me.cboMop = New System.Windows.Forms.ComboBox()
         Me.lblChange = New System.Windows.Forms.Label()
-        Me.lblCost = New System.Windows.Forms.Label()
+        Me.lblCash = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
@@ -417,10 +417,12 @@ Partial Class Main
         '
         Me.lblTime.BackColor = System.Drawing.Color.White
         Me.lblTime.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblTime.Font = New System.Drawing.Font("Bahnschrift SemiBold SemiConden", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTime.Location = New System.Drawing.Point(161, 88)
         Me.lblTime.Name = "lblTime"
         Me.lblTime.Size = New System.Drawing.Size(170, 48)
         Me.lblTime.TabIndex = 11
+        Me.lblTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'PictureBox1
         '
@@ -436,16 +438,18 @@ Partial Class Main
         '
         Me.lblDate.BackColor = System.Drawing.Color.White
         Me.lblDate.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblDate.Font = New System.Drawing.Font("Bahnschrift SemiBold SemiConden", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblDate.Location = New System.Drawing.Point(161, 23)
         Me.lblDate.Name = "lblDate"
         Me.lblDate.Size = New System.Drawing.Size(170, 48)
         Me.lblDate.TabIndex = 9
+        Me.lblDate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.BlanchedAlmond
         Me.Panel3.Controls.Add(Me.lblPrices)
-        Me.Panel3.Location = New System.Drawing.Point(773, 460)
+        Me.Panel3.Location = New System.Drawing.Point(773, 14)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(439, 94)
         Me.Panel3.TabIndex = 4
@@ -454,10 +458,12 @@ Partial Class Main
         '
         Me.lblPrices.BackColor = System.Drawing.Color.White
         Me.lblPrices.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblPrices.Font = New System.Drawing.Font("Bahnschrift Condensed", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblPrices.Location = New System.Drawing.Point(14, 13)
         Me.lblPrices.Name = "lblPrices"
         Me.lblPrices.Size = New System.Drawing.Size(410, 70)
         Me.lblPrices.TabIndex = 4
+        Me.lblPrices.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'DataGridView1
         '
@@ -465,7 +471,7 @@ Partial Class Main
         Me.DataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3})
-        Me.DataGridView1.Location = New System.Drawing.Point(773, 13)
+        Me.DataGridView1.Location = New System.Drawing.Point(773, 130)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
@@ -625,10 +631,13 @@ Partial Class Main
         '
         Me.lblCashIn.BackColor = System.Drawing.Color.White
         Me.lblCashIn.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblCashIn.Font = New System.Drawing.Font("Bahnschrift SemiBold SemiConden", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblCashIn.Location = New System.Drawing.Point(11, 20)
         Me.lblCashIn.Name = "lblCashIn"
         Me.lblCashIn.Size = New System.Drawing.Size(358, 41)
         Me.lblCashIn.TabIndex = 3
+        Me.lblCashIn.Text = "0"
+        Me.lblCashIn.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'btnSeven
         '
@@ -656,9 +665,9 @@ Partial Class Main
         Me.Panel2.Controls.Add(Me.Label12)
         Me.Panel2.Controls.Add(Me.Label11)
         Me.Panel2.Controls.Add(Me.Label10)
-        Me.Panel2.Controls.Add(Me.cmbMop)
+        Me.Panel2.Controls.Add(Me.cboMop)
         Me.Panel2.Controls.Add(Me.lblChange)
-        Me.Panel2.Controls.Add(Me.lblCost)
+        Me.Panel2.Controls.Add(Me.lblCash)
         Me.Panel2.Location = New System.Drawing.Point(412, 11)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(413, 145)
@@ -690,37 +699,46 @@ Partial Class Main
         Me.Label10.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.Location = New System.Drawing.Point(6, 66)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(44, 23)
+        Me.Label10.Size = New System.Drawing.Size(48, 23)
         Me.Label10.TabIndex = 10
-        Me.Label10.Text = "Cost"
+        Me.Label10.Text = "Cash"
         '
-        'cmbMop
+        'cboMop
         '
-        Me.cmbMop.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable
-        Me.cmbMop.FormattingEnabled = True
-        Me.cmbMop.ItemHeight = 25
-        Me.cmbMop.Location = New System.Drawing.Point(170, 10)
-        Me.cmbMop.Name = "cmbMop"
-        Me.cmbMop.Size = New System.Drawing.Size(235, 31)
-        Me.cmbMop.TabIndex = 9
+        Me.cboMop.DropDownHeight = 96
+        Me.cboMop.DropDownWidth = 235
+        Me.cboMop.Font = New System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cboMop.FormattingEnabled = True
+        Me.cboMop.IntegralHeight = False
+        Me.cboMop.ItemHeight = 28
+        Me.cboMop.Location = New System.Drawing.Point(170, 10)
+        Me.cboMop.Name = "cboMop"
+        Me.cboMop.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.cboMop.Size = New System.Drawing.Size(235, 36)
+        Me.cboMop.TabIndex = 9
         '
         'lblChange
         '
         Me.lblChange.BackColor = System.Drawing.Color.White
         Me.lblChange.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblChange.Font = New System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblChange.Location = New System.Drawing.Point(171, 99)
         Me.lblChange.Name = "lblChange"
         Me.lblChange.Size = New System.Drawing.Size(235, 35)
         Me.lblChange.TabIndex = 7
+        Me.lblChange.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'lblCost
+        'lblCash
         '
-        Me.lblCost.BackColor = System.Drawing.Color.White
-        Me.lblCost.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblCost.Location = New System.Drawing.Point(171, 54)
-        Me.lblCost.Name = "lblCost"
-        Me.lblCost.Size = New System.Drawing.Size(235, 35)
-        Me.lblCost.TabIndex = 6
+        Me.lblCash.BackColor = System.Drawing.Color.White
+        Me.lblCash.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblCash.Font = New System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCash.Location = New System.Drawing.Point(171, 54)
+        Me.lblCash.Name = "lblCash"
+        Me.lblCash.Size = New System.Drawing.Size(235, 35)
+        Me.lblCash.TabIndex = 6
+        Me.lblCash.Text = "0"
+        Me.lblCash.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Panel1
         '
@@ -770,6 +788,7 @@ Partial Class Main
         '
         Me.lblTotal.BackColor = System.Drawing.Color.White
         Me.lblTotal.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblTotal.Font = New System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTotal.Location = New System.Drawing.Point(147, 99)
         Me.lblTotal.Name = "lblTotal"
         Me.lblTotal.Size = New System.Drawing.Size(235, 35)
@@ -779,6 +798,7 @@ Partial Class Main
         '
         Me.lblTax.BackColor = System.Drawing.Color.White
         Me.lblTax.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblTax.Font = New System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTax.Location = New System.Drawing.Point(147, 54)
         Me.lblTax.Name = "lblTax"
         Me.lblTax.Size = New System.Drawing.Size(235, 35)
@@ -788,6 +808,7 @@ Partial Class Main
         '
         Me.lblSubTotal.BackColor = System.Drawing.Color.White
         Me.lblSubTotal.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblSubTotal.Font = New System.Drawing.Font("Bahnschrift SemiBold SemiConden", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSubTotal.Location = New System.Drawing.Point(147, 8)
         Me.lblSubTotal.Name = "lblSubTotal"
         Me.lblSubTotal.Size = New System.Drawing.Size(235, 35)
@@ -860,7 +881,7 @@ Partial Class Main
     Friend WithEvents lblPrices As Label
     Friend WithEvents Panel2 As Panel
     Friend WithEvents lblChange As Label
-    Friend WithEvents lblCost As Label
+    Friend WithEvents lblCash As Label
     Friend WithEvents Panel1 As Panel
     Friend WithEvents lblTotal As Label
     Friend WithEvents lblTax As Label
@@ -868,7 +889,7 @@ Partial Class Main
     Friend WithEvents lblDate As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents lblTime As Label
-    Friend WithEvents cmbMop As ComboBox
+    Friend WithEvents cboMop As ComboBox
     Friend WithEvents btnCoffee As Button
     Friend WithEvents btnAdez As Button
     Friend WithEvents btnSoju As Button
