@@ -668,7 +668,7 @@ Partial Class Main
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(15, 16)
+        Me.Label12.Location = New System.Drawing.Point(6, 16)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(149, 23)
         Me.Label12.TabIndex = 12
@@ -678,7 +678,7 @@ Partial Class Main
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(15, 107)
+        Me.Label11.Location = New System.Drawing.Point(6, 111)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(68, 23)
         Me.Label11.TabIndex = 11
@@ -688,7 +688,7 @@ Partial Class Main
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(15, 61)
+        Me.Label10.Location = New System.Drawing.Point(6, 66)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(44, 23)
         Me.Label10.TabIndex = 10
@@ -717,7 +717,7 @@ Partial Class Main
         '
         Me.lblCost.BackColor = System.Drawing.Color.White
         Me.lblCost.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblCost.Location = New System.Drawing.Point(171, 49)
+        Me.lblCost.Location = New System.Drawing.Point(171, 54)
         Me.lblCost.Name = "lblCost"
         Me.lblCost.Size = New System.Drawing.Size(235, 35)
         Me.lblCost.TabIndex = 6
@@ -740,7 +740,7 @@ Partial Class Main
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(13, 111)
+        Me.Label15.Location = New System.Drawing.Point(10, 111)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(49, 23)
         Me.Label15.TabIndex = 13
@@ -750,7 +750,7 @@ Partial Class Main
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(13, 66)
+        Me.Label14.Location = New System.Drawing.Point(10, 66)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(36, 23)
         Me.Label14.TabIndex = 12
@@ -760,7 +760,7 @@ Partial Class Main
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Franklin Gothic Medium", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(13, 16)
+        Me.Label13.Location = New System.Drawing.Point(10, 22)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(84, 23)
         Me.Label13.TabIndex = 11
