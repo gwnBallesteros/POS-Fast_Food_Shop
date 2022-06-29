@@ -25,26 +25,26 @@ Partial Class Main
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Main))
         Me.pnlBackground = New System.Windows.Forms.Panel()
         Me.pnlItems = New System.Windows.Forms.Panel()
-        Me.Button32 = New System.Windows.Forms.Button()
-        Me.Button33 = New System.Windows.Forms.Button()
-        Me.Button34 = New System.Windows.Forms.Button()
-        Me.Button35 = New System.Windows.Forms.Button()
-        Me.Button36 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Button30 = New System.Windows.Forms.Button()
-        Me.Button31 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button29 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnCoffee = New System.Windows.Forms.Button()
+        Me.btnAdez = New System.Windows.Forms.Button()
+        Me.btnSoju = New System.Windows.Forms.Button()
+        Me.btnFanta = New System.Windows.Forms.Button()
+        Me.btnCoke = New System.Windows.Forms.Button()
+        Me.btnLorenz = New System.Windows.Forms.Button()
+        Me.btnWavy = New System.Windows.Forms.Button()
+        Me.btnChitz = New System.Windows.Forms.Button()
+        Me.btnDoritos = New System.Windows.Forms.Button()
+        Me.btnLaysClassic = New System.Windows.Forms.Button()
+        Me.btnSalad = New System.Windows.Forms.Button()
+        Me.btnEggs = New System.Windows.Forms.Button()
+        Me.btnSausage = New System.Windows.Forms.Button()
+        Me.btnWedges = New System.Windows.Forms.Button()
+        Me.btnTempura = New System.Windows.Forms.Button()
+        Me.btnFries = New System.Windows.Forms.Button()
+        Me.btnHotDog = New System.Windows.Forms.Button()
+        Me.btnBurger = New System.Windows.Forms.Button()
+        Me.btnPizza = New System.Windows.Forms.Button()
+        Me.btnFriedChicken = New System.Windows.Forms.Button()
         Me.pnlControls = New System.Windows.Forms.Panel()
         Me.Button16 = New System.Windows.Forms.Button()
         Me.Button15 = New System.Windows.Forms.Button()
@@ -77,7 +77,6 @@ Partial Class Main
         Me.pnlTotal = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
@@ -115,230 +114,231 @@ Partial Class Main
         '
         'pnlItems
         '
-        Me.pnlItems.Controls.Add(Me.Button32)
-        Me.pnlItems.Controls.Add(Me.Button33)
-        Me.pnlItems.Controls.Add(Me.Button34)
-        Me.pnlItems.Controls.Add(Me.Button35)
-        Me.pnlItems.Controls.Add(Me.Button36)
-        Me.pnlItems.Controls.Add(Me.Button10)
-        Me.pnlItems.Controls.Add(Me.Button11)
-        Me.pnlItems.Controls.Add(Me.Button12)
-        Me.pnlItems.Controls.Add(Me.Button30)
-        Me.pnlItems.Controls.Add(Me.Button31)
-        Me.pnlItems.Controls.Add(Me.Button5)
-        Me.pnlItems.Controls.Add(Me.Button6)
-        Me.pnlItems.Controls.Add(Me.Button7)
-        Me.pnlItems.Controls.Add(Me.Button8)
-        Me.pnlItems.Controls.Add(Me.Button9)
-        Me.pnlItems.Controls.Add(Me.Button29)
-        Me.pnlItems.Controls.Add(Me.Button4)
-        Me.pnlItems.Controls.Add(Me.Button3)
-        Me.pnlItems.Controls.Add(Me.Button2)
-        Me.pnlItems.Controls.Add(Me.Button1)
+        Me.pnlItems.BackColor = System.Drawing.Color.White
+        Me.pnlItems.Controls.Add(Me.btnCoffee)
+        Me.pnlItems.Controls.Add(Me.btnAdez)
+        Me.pnlItems.Controls.Add(Me.btnSoju)
+        Me.pnlItems.Controls.Add(Me.btnFanta)
+        Me.pnlItems.Controls.Add(Me.btnCoke)
+        Me.pnlItems.Controls.Add(Me.btnLorenz)
+        Me.pnlItems.Controls.Add(Me.btnWavy)
+        Me.pnlItems.Controls.Add(Me.btnChitz)
+        Me.pnlItems.Controls.Add(Me.btnDoritos)
+        Me.pnlItems.Controls.Add(Me.btnLaysClassic)
+        Me.pnlItems.Controls.Add(Me.btnSalad)
+        Me.pnlItems.Controls.Add(Me.btnEggs)
+        Me.pnlItems.Controls.Add(Me.btnSausage)
+        Me.pnlItems.Controls.Add(Me.btnWedges)
+        Me.pnlItems.Controls.Add(Me.btnTempura)
+        Me.pnlItems.Controls.Add(Me.btnFries)
+        Me.pnlItems.Controls.Add(Me.btnHotDog)
+        Me.pnlItems.Controls.Add(Me.btnBurger)
+        Me.pnlItems.Controls.Add(Me.btnPizza)
+        Me.pnlItems.Controls.Add(Me.btnFriedChicken)
         Me.pnlItems.Location = New System.Drawing.Point(13, 13)
         Me.pnlItems.Name = "pnlItems"
         Me.pnlItems.Size = New System.Drawing.Size(739, 541)
         Me.pnlItems.TabIndex = 7
         '
-        'Button32
+        'btnCoffee
         '
-        Me.Button32.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Disposable_Cup_with_Coffee_G06_watermarked_2k
-        Me.Button32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button32.Location = New System.Drawing.Point(586, 404)
-        Me.Button32.Name = "Button32"
-        Me.Button32.Size = New System.Drawing.Size(145, 136)
-        Me.Button32.TabIndex = 27
-        Me.Button32.UseVisualStyleBackColor = True
+        Me.btnCoffee.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Disposable_Cup_with_Coffee_G06_watermarked_2k
+        Me.btnCoffee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnCoffee.Location = New System.Drawing.Point(586, 404)
+        Me.btnCoffee.Name = "btnCoffee"
+        Me.btnCoffee.Size = New System.Drawing.Size(145, 136)
+        Me.btnCoffee.TabIndex = 27
+        Me.btnCoffee.UseVisualStyleBackColor = True
         '
-        'Button33
+        'btnAdez
         '
-        Me.Button33.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.AdeZ_Surprising_Soy_Drink_800ml_G03_watermarked_2k
-        Me.Button33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button33.Location = New System.Drawing.Point(442, 404)
-        Me.Button33.Name = "Button33"
-        Me.Button33.Size = New System.Drawing.Size(145, 136)
-        Me.Button33.TabIndex = 26
-        Me.Button33.UseVisualStyleBackColor = True
+        Me.btnAdez.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.AdeZ_Surprising_Soy_Drink_800ml_G03_watermarked_2k
+        Me.btnAdez.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnAdez.Location = New System.Drawing.Point(442, 404)
+        Me.btnAdez.Name = "btnAdez"
+        Me.btnAdez.Size = New System.Drawing.Size(145, 136)
+        Me.btnAdez.TabIndex = 26
+        Me.btnAdez.UseVisualStyleBackColor = True
         '
-        'Button34
+        'btnSoju
         '
-        Me.Button34.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Soju_Original_Alcoholic_Beverage_G03_watermarked_2k
-        Me.Button34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button34.Location = New System.Drawing.Point(297, 404)
-        Me.Button34.Name = "Button34"
-        Me.Button34.Size = New System.Drawing.Size(145, 136)
-        Me.Button34.TabIndex = 25
-        Me.Button34.UseVisualStyleBackColor = True
+        Me.btnSoju.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Soju_Original_Alcoholic_Beverage_G03_watermarked_2k
+        Me.btnSoju.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnSoju.Location = New System.Drawing.Point(297, 404)
+        Me.btnSoju.Name = "btnSoju"
+        Me.btnSoju.Size = New System.Drawing.Size(145, 136)
+        Me.btnSoju.TabIndex = 25
+        Me.btnSoju.UseVisualStyleBackColor = True
         '
-        'Button35
+        'btnFanta
         '
-        Me.Button35.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Beverage_Can_Fanta_Mezzo_330ml_G03_watermarked_2k
-        Me.Button35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button35.Location = New System.Drawing.Point(152, 404)
-        Me.Button35.Name = "Button35"
-        Me.Button35.Size = New System.Drawing.Size(145, 136)
-        Me.Button35.TabIndex = 24
-        Me.Button35.UseVisualStyleBackColor = True
+        Me.btnFanta.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Beverage_Can_Fanta_Mezzo_330ml_G03_watermarked_2k
+        Me.btnFanta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnFanta.Location = New System.Drawing.Point(152, 404)
+        Me.btnFanta.Name = "btnFanta"
+        Me.btnFanta.Size = New System.Drawing.Size(145, 136)
+        Me.btnFanta.TabIndex = 24
+        Me.btnFanta.UseVisualStyleBackColor = True
         '
-        'Button36
+        'btnCoke
         '
-        Me.Button36.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Beverage_Can_Coca_Cola_330ml_Tall_G03_watermarked_2k
-        Me.Button36.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button36.Location = New System.Drawing.Point(7, 404)
-        Me.Button36.Name = "Button36"
-        Me.Button36.Size = New System.Drawing.Size(145, 136)
-        Me.Button36.TabIndex = 23
-        Me.Button36.UseVisualStyleBackColor = True
+        Me.btnCoke.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Beverage_Can_Coca_Cola_330ml_Tall_G03_watermarked_2k
+        Me.btnCoke.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnCoke.Location = New System.Drawing.Point(7, 404)
+        Me.btnCoke.Name = "btnCoke"
+        Me.btnCoke.Size = New System.Drawing.Size(145, 136)
+        Me.btnCoke.TabIndex = 23
+        Me.btnCoke.UseVisualStyleBackColor = True
         '
-        'Button10
+        'btnLorenz
         '
-        Me.Button10.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Lorenz_Chipsletten_Mediterranean_Paprika_100g_G03_watermarked_2k
-        Me.Button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button10.Location = New System.Drawing.Point(586, 270)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(145, 136)
-        Me.Button10.TabIndex = 22
-        Me.Button10.UseVisualStyleBackColor = True
+        Me.btnLorenz.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Lorenz_Chipsletten_Mediterranean_Paprika_100g_G03_watermarked_2k
+        Me.btnLorenz.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnLorenz.Location = New System.Drawing.Point(586, 270)
+        Me.btnLorenz.Name = "btnLorenz"
+        Me.btnLorenz.Size = New System.Drawing.Size(145, 136)
+        Me.btnLorenz.TabIndex = 22
+        Me.btnLorenz.UseVisualStyleBackColor = True
         '
-        'Button11
+        'btnWavy
         '
-        Me.Button11.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Wavy_Lays_Original_Potato_Chips_G03_watermarked_2k
-        Me.Button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button11.Location = New System.Drawing.Point(442, 270)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(145, 136)
-        Me.Button11.TabIndex = 21
-        Me.Button11.UseVisualStyleBackColor = True
+        Me.btnWavy.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Wavy_Lays_Original_Potato_Chips_G03_watermarked_2k
+        Me.btnWavy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnWavy.Location = New System.Drawing.Point(442, 270)
+        Me.btnWavy.Name = "btnWavy"
+        Me.btnWavy.Size = New System.Drawing.Size(145, 136)
+        Me.btnWavy.TabIndex = 21
+        Me.btnWavy.UseVisualStyleBackColor = True
         '
-        'Button12
+        'btnChitz
         '
-        Me.Button12.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Chips_Packaging_G03_watermarked_2k
-        Me.Button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button12.Location = New System.Drawing.Point(297, 270)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(145, 136)
-        Me.Button12.TabIndex = 20
-        Me.Button12.UseVisualStyleBackColor = True
+        Me.btnChitz.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Chips_Packaging_G03_watermarked_2k
+        Me.btnChitz.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnChitz.Location = New System.Drawing.Point(297, 270)
+        Me.btnChitz.Name = "btnChitz"
+        Me.btnChitz.Size = New System.Drawing.Size(145, 136)
+        Me.btnChitz.TabIndex = 20
+        Me.btnChitz.UseVisualStyleBackColor = True
         '
-        'Button30
+        'btnDoritos
         '
-        Me.Button30.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Doritos_Cool_Ranch_Chips_G03_watermarked_2k
-        Me.Button30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button30.Location = New System.Drawing.Point(152, 270)
-        Me.Button30.Name = "Button30"
-        Me.Button30.Size = New System.Drawing.Size(145, 136)
-        Me.Button30.TabIndex = 19
-        Me.Button30.UseVisualStyleBackColor = True
+        Me.btnDoritos.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Doritos_Cool_Ranch_Chips_G03_watermarked_2k
+        Me.btnDoritos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnDoritos.Location = New System.Drawing.Point(152, 270)
+        Me.btnDoritos.Name = "btnDoritos"
+        Me.btnDoritos.Size = New System.Drawing.Size(145, 136)
+        Me.btnDoritos.TabIndex = 19
+        Me.btnDoritos.UseVisualStyleBackColor = True
         '
-        'Button31
+        'btnLaysClassic
         '
-        Me.Button31.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Lays_Classic_Potato_Chips_G03_watermarked_2k
-        Me.Button31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button31.Location = New System.Drawing.Point(7, 270)
-        Me.Button31.Name = "Button31"
-        Me.Button31.Size = New System.Drawing.Size(145, 136)
-        Me.Button31.TabIndex = 18
-        Me.Button31.UseVisualStyleBackColor = True
+        Me.btnLaysClassic.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Lays_Classic_Potato_Chips_G03_watermarked_2k
+        Me.btnLaysClassic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnLaysClassic.Location = New System.Drawing.Point(7, 270)
+        Me.btnLaysClassic.Name = "btnLaysClassic"
+        Me.btnLaysClassic.Size = New System.Drawing.Size(145, 136)
+        Me.btnLaysClassic.TabIndex = 18
+        Me.btnLaysClassic.UseVisualStyleBackColor = True
         '
-        'Button5
+        'btnSalad
         '
-        Me.Button5.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Salad_Set_G03_watermarked_2k
-        Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button5.Location = New System.Drawing.Point(586, 136)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(145, 136)
-        Me.Button5.TabIndex = 17
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.btnSalad.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Salad_Set_G03_watermarked_2k
+        Me.btnSalad.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnSalad.Location = New System.Drawing.Point(586, 136)
+        Me.btnSalad.Name = "btnSalad"
+        Me.btnSalad.Size = New System.Drawing.Size(145, 136)
+        Me.btnSalad.TabIndex = 17
+        Me.btnSalad.UseVisualStyleBackColor = True
         '
-        'Button6
+        'btnEggs
         '
-        Me.Button6.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Fried_Eggs_In_A_Pan_G03_watermarked_2k
-        Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button6.Location = New System.Drawing.Point(442, 136)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(145, 136)
-        Me.Button6.TabIndex = 16
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.btnEggs.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Fried_Eggs_In_A_Pan_G03_watermarked_2k
+        Me.btnEggs.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnEggs.Location = New System.Drawing.Point(442, 136)
+        Me.btnEggs.Name = "btnEggs"
+        Me.btnEggs.Size = New System.Drawing.Size(145, 136)
+        Me.btnEggs.TabIndex = 16
+        Me.btnEggs.UseVisualStyleBackColor = True
         '
-        'Button7
+        'btnSausage
         '
-        Me.Button7.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Sausage_Croissant_G03_watermarked_2k
-        Me.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button7.Location = New System.Drawing.Point(297, 136)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(145, 136)
-        Me.Button7.TabIndex = 15
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.btnSausage.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Sausage_Croissant_G03_watermarked_2k
+        Me.btnSausage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnSausage.Location = New System.Drawing.Point(297, 136)
+        Me.btnSausage.Name = "btnSausage"
+        Me.btnSausage.Size = New System.Drawing.Size(145, 136)
+        Me.btnSausage.TabIndex = 15
+        Me.btnSausage.UseVisualStyleBackColor = True
         '
-        'Button8
+        'btnWedges
         '
-        Me.Button8.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Potato_Wedges_G03_watermarked_2k
-        Me.Button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button8.Location = New System.Drawing.Point(152, 136)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(145, 136)
-        Me.Button8.TabIndex = 14
-        Me.Button8.UseVisualStyleBackColor = True
+        Me.btnWedges.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Potato_Wedges_G03_watermarked_2k
+        Me.btnWedges.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnWedges.Location = New System.Drawing.Point(152, 136)
+        Me.btnWedges.Name = "btnWedges"
+        Me.btnWedges.Size = New System.Drawing.Size(145, 136)
+        Me.btnWedges.TabIndex = 14
+        Me.btnWedges.UseVisualStyleBackColor = True
         '
-        'Button9
+        'btnTempura
         '
-        Me.Button9.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Fried_Shrimp_Noodle_Soup_G03_watermarked_2k
-        Me.Button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button9.Location = New System.Drawing.Point(7, 136)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(145, 136)
-        Me.Button9.TabIndex = 13
-        Me.Button9.UseVisualStyleBackColor = True
+        Me.btnTempura.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Fried_Shrimp_Noodle_Soup_G03_watermarked_2k
+        Me.btnTempura.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnTempura.Location = New System.Drawing.Point(7, 136)
+        Me.btnTempura.Name = "btnTempura"
+        Me.btnTempura.Size = New System.Drawing.Size(145, 136)
+        Me.btnTempura.TabIndex = 13
+        Me.btnTempura.UseVisualStyleBackColor = True
         '
-        'Button29
+        'btnFries
         '
-        Me.Button29.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Cartoon_French_fries_G03_watermarked_2k
-        Me.Button29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button29.Location = New System.Drawing.Point(586, 1)
-        Me.Button29.Name = "Button29"
-        Me.Button29.Size = New System.Drawing.Size(145, 136)
-        Me.Button29.TabIndex = 12
-        Me.Button29.UseVisualStyleBackColor = True
+        Me.btnFries.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Cartoon_French_fries_G03_watermarked_2k
+        Me.btnFries.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnFries.Location = New System.Drawing.Point(586, 1)
+        Me.btnFries.Name = "btnFries"
+        Me.btnFries.Size = New System.Drawing.Size(145, 136)
+        Me.btnFries.TabIndex = 12
+        Me.btnFries.UseVisualStyleBackColor = True
         '
-        'Button4
+        'btnHotDog
         '
-        Me.Button4.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Hot_Dog_with_Mustard_G03_watermarked_2k
-        Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button4.Location = New System.Drawing.Point(442, 1)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(145, 136)
-        Me.Button4.TabIndex = 3
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.btnHotDog.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Hot_Dog_with_Mustard_G03_watermarked_2k
+        Me.btnHotDog.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnHotDog.Location = New System.Drawing.Point(442, 1)
+        Me.btnHotDog.Name = "btnHotDog"
+        Me.btnHotDog.Size = New System.Drawing.Size(145, 136)
+        Me.btnHotDog.TabIndex = 3
+        Me.btnHotDog.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btnBurger
         '
-        Me.Button3.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Veggie_Burger_G16_watermarked_2k
-        Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button3.Location = New System.Drawing.Point(297, 1)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(145, 136)
-        Me.Button3.TabIndex = 2
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnBurger.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Veggie_Burger_G16_watermarked_2k
+        Me.btnBurger.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnBurger.Location = New System.Drawing.Point(297, 1)
+        Me.btnBurger.Name = "btnBurger"
+        Me.btnBurger.Size = New System.Drawing.Size(145, 136)
+        Me.btnBurger.TabIndex = 2
+        Me.btnBurger.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnPizza
         '
-        Me.Button2.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.New_York_Style_Pizza_G01_watermarked_2k
-        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button2.Location = New System.Drawing.Point(152, 1)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(145, 136)
-        Me.Button2.TabIndex = 1
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnPizza.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.New_York_Style_Pizza_G01_watermarked_2k
+        Me.btnPizza.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnPizza.Location = New System.Drawing.Point(152, 1)
+        Me.btnPizza.Name = "btnPizza"
+        Me.btnPizza.Size = New System.Drawing.Size(145, 136)
+        Me.btnPizza.TabIndex = 1
+        Me.btnPizza.UseVisualStyleBackColor = True
         '
-        'Button1
+        'btnFriedChicken
         '
-        Me.Button1.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Cartoon_Chicken_Bucket_G03_watermarked_2k
-        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button1.Location = New System.Drawing.Point(7, 1)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(145, 136)
-        Me.Button1.TabIndex = 0
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnFriedChicken.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Cartoon_Chicken_Bucket_G03_watermarked_2k
+        Me.btnFriedChicken.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btnFriedChicken.Location = New System.Drawing.Point(7, 1)
+        Me.btnFriedChicken.Name = "btnFriedChicken"
+        Me.btnFriedChicken.Size = New System.Drawing.Size(145, 136)
+        Me.btnFriedChicken.TabIndex = 0
+        Me.btnFriedChicken.UseVisualStyleBackColor = True
         '
         'pnlControls
         '
@@ -353,42 +353,43 @@ Partial Class Main
         '
         'Button16
         '
-        Me.Button16.Location = New System.Drawing.Point(197, 94)
+        Me.Button16.Location = New System.Drawing.Point(194, 87)
         Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(167, 60)
+        Me.Button16.Size = New System.Drawing.Size(177, 72)
         Me.Button16.TabIndex = 3
         Me.Button16.Text = "Button16"
         Me.Button16.UseVisualStyleBackColor = True
         '
         'Button15
         '
-        Me.Button15.Location = New System.Drawing.Point(14, 94)
+        Me.Button15.Location = New System.Drawing.Point(11, 87)
         Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(167, 60)
+        Me.Button15.Size = New System.Drawing.Size(177, 72)
         Me.Button15.TabIndex = 2
         Me.Button15.Text = "Button15"
         Me.Button15.UseVisualStyleBackColor = True
         '
         'Button14
         '
-        Me.Button14.Location = New System.Drawing.Point(197, 16)
+        Me.Button14.Location = New System.Drawing.Point(194, 9)
         Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(167, 60)
+        Me.Button14.Size = New System.Drawing.Size(177, 72)
         Me.Button14.TabIndex = 1
         Me.Button14.Text = "Button14"
         Me.Button14.UseVisualStyleBackColor = True
         '
         'Button13
         '
-        Me.Button13.Location = New System.Drawing.Point(14, 16)
+        Me.Button13.Location = New System.Drawing.Point(11, 9)
         Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(167, 60)
+        Me.Button13.Size = New System.Drawing.Size(177, 72)
         Me.Button13.TabIndex = 0
         Me.Button13.Text = "Button13"
         Me.Button13.UseVisualStyleBackColor = True
         '
         'pnlDateTime
         '
+        Me.pnlDateTime.BackColor = System.Drawing.SystemColors.Control
         Me.pnlDateTime.Controls.Add(Me.Label9)
         Me.pnlDateTime.Controls.Add(Me.PictureBox1)
         Me.pnlDateTime.Controls.Add(Me.Label3)
@@ -623,7 +624,6 @@ Partial Class Main
         '
         Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Panel2.Controls.Add(Me.ComboBox2)
-        Me.Panel2.Controls.Add(Me.ComboBox1)
         Me.Panel2.Controls.Add(Me.Label5)
         Me.Panel2.Controls.Add(Me.Label4)
         Me.Panel2.Location = New System.Drawing.Point(412, 11)
@@ -640,16 +640,6 @@ Partial Class Main
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(235, 31)
         Me.ComboBox2.TabIndex = 9
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.ItemHeight = 27
-        Me.ComboBox1.Location = New System.Drawing.Point(145, 8)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(235, 33)
-        Me.ComboBox1.TabIndex = 8
         '
         'Label5
         '
@@ -719,7 +709,7 @@ Partial Class Main
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Main"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form1"
+        Me.Text = "POS 24/7 Food Shop"
         Me.pnlBackground.ResumeLayout(False)
         Me.pnlItems.ResumeLayout(False)
         Me.pnlControls.ResumeLayout(False)
@@ -746,10 +736,10 @@ Partial Class Main
     Friend WithEvents pnlNumbers As Panel
     Friend WithEvents pnlTotal As Panel
     Friend WithEvents pnlItems As Panel
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btnHotDog As Button
+    Friend WithEvents btnBurger As Button
+    Friend WithEvents btnPizza As Button
+    Friend WithEvents btnFriedChicken As Button
     Friend WithEvents Button16 As Button
     Friend WithEvents Button15 As Button
     Friend WithEvents Button14 As Button
@@ -769,7 +759,6 @@ Partial Class Main
     Friend WithEvents Button20 As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Panel1 As Panel
@@ -780,20 +769,20 @@ Partial Class Main
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label9 As Label
     Friend WithEvents ComboBox2 As ComboBox
-    Friend WithEvents Button32 As Button
-    Friend WithEvents Button33 As Button
-    Friend WithEvents Button34 As Button
-    Friend WithEvents Button35 As Button
-    Friend WithEvents Button36 As Button
-    Friend WithEvents Button10 As Button
-    Friend WithEvents Button11 As Button
-    Friend WithEvents Button12 As Button
-    Friend WithEvents Button30 As Button
-    Friend WithEvents Button31 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button8 As Button
-    Friend WithEvents Button9 As Button
-    Friend WithEvents Button29 As Button
+    Friend WithEvents btnCoffee As Button
+    Friend WithEvents btnAdez As Button
+    Friend WithEvents btnSoju As Button
+    Friend WithEvents btnFanta As Button
+    Friend WithEvents btnCoke As Button
+    Friend WithEvents btnLorenz As Button
+    Friend WithEvents btnWavy As Button
+    Friend WithEvents btnChitz As Button
+    Friend WithEvents btnDoritos As Button
+    Friend WithEvents btnLaysClassic As Button
+    Friend WithEvents btnSalad As Button
+    Friend WithEvents btnEggs As Button
+    Friend WithEvents btnSausage As Button
+    Friend WithEvents btnWedges As Button
+    Friend WithEvents btnTempura As Button
+    Friend WithEvents btnFries As Button
 End Class
