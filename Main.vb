@@ -528,7 +528,7 @@ Public Class Main
         Dim dtmSystemDateTime As Date
         dtmSystemDateTime = Now
 
-        Dim f8 As New Font("Franklin Gothic Medium", 8, FontStyle.Regular)
+        Dim f8 As New Font("Calibri", 8, FontStyle.Regular)
         Dim f10 As New Font("Calibri", 10, FontStyle.Regular)
         Dim f10b As New Font("Calibri", 10, FontStyle.Bold)
         Dim f14 As New Font("Tahoma", 14, FontStyle.Bold)
@@ -587,7 +587,7 @@ Public Class Main
 
         Dim height2 As Integer
         height2 = 110 + height
-        sumprice() 'call sub
+        sumqty() 'call sub
         e.Graphics.DrawString(line, f8, Brushes.Black, 0, height2)
         e.Graphics.DrawString("Total: " & lblTotal.Text, f10b, Brushes.Black, rightmargin, 10 + height2, right)
         e.Graphics.DrawString(t_qty, f10b, Brushes.Black, 0, 10 + height2)
@@ -598,9 +598,8 @@ Public Class Main
         e.Graphics.DrawString("~ Please Come Again! ~", f10, Brushes.Black, centermargin, 78 + height2, center)
     End Sub
 
-    Dim t_price As Double
     Dim t_qty As Long
-    Sub sumprice()
+    Sub sumqty()
 
         Dim countqty As Long = 0
         For rowitem As Long = 0 To DataGridView1.RowCount - 1

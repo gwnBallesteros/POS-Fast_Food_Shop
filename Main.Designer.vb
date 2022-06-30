@@ -716,7 +716,7 @@ Partial Class Main
         Me.cboMop.ItemHeight = 28
         Me.cboMop.Location = New System.Drawing.Point(170, 10)
         Me.cboMop.Name = "cboMop"
-        Me.cboMop.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.cboMop.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.cboMop.Size = New System.Drawing.Size(235, 36)
         Me.cboMop.TabIndex = 9
         '
@@ -816,9 +816,6 @@ Partial Class Main
         Me.lblSubTotal.Name = "lblSubTotal"
         Me.lblSubTotal.Size = New System.Drawing.Size(235, 35)
         Me.lblSubTotal.TabIndex = 8
-        '
-        'PrintDocument1
-        '
         '
         'PrintDialog1
         '
