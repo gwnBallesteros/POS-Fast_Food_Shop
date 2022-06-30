@@ -49,6 +49,7 @@
         lblTime.Text = TimeOfDay
         DataGridView1.Rows.Clear()
         DataGridView1.Refresh()
+        btnPrint.Enabled = False
     End Sub
 
     'In the Panel Numbers
@@ -123,6 +124,8 @@
             lblChange.Text = String.Empty
             lblCash.Text = "0"
         End If
+
+        btnPrint.Enabled = False
     End Sub
 
     'Coke Button in the Items
@@ -176,6 +179,312 @@
         Next
 
         DataGridView1.Rows.Add("Soju Orig", "1", CostOfItem)
+        AddCost()
+    End Sub
+
+    'Adez Button in the Items
+    Private Sub btnAdez_Click(sender As Object, e As EventArgs) Handles btnAdez.Click
+        Dim CostOfItem As Double = 199.0
+        For Each Row As DataGridViewRow In DataGridView1.Rows
+            lblPrices.Text = ("AdeZ Surprising Joy Drink 800ml" & ControlChars.CrLf & CostOfItem.ToString("C2"))
+            If Row.Cells(0).Value = "AdeZ Drink" Then
+                Row.Cells(1).Value = Double.Parse(Row.Cells(1).Value + 1)
+                Row.Cells(2).Value = Double.Parse(Row.Cells(1).Value) * CostOfItem
+                AddCost()
+                Exit Sub
+                AddCost()
+            End If
+        Next
+
+        DataGridView1.Rows.Add("Adez Drink", "1", CostOfItem)
+        AddCost()
+    End Sub
+
+    'Coffee Button in the Items
+    Private Sub btnCoffee_Click(sender As Object, e As EventArgs) Handles btnCoffee.Click
+        Dim CostOfItem As Double = 90.75
+        For Each Row As DataGridViewRow In DataGridView1.Rows
+            lblPrices.Text = ("Coffee Latte" & ControlChars.CrLf & CostOfItem.ToString("C2"))
+            If Row.Cells(0).Value = "Coffee Latte" Then
+                Row.Cells(1).Value = Double.Parse(Row.Cells(1).Value + 1)
+                Row.Cells(2).Value = Double.Parse(Row.Cells(1).Value) * CostOfItem
+                AddCost()
+                Exit Sub
+                AddCost()
+            End If
+        Next
+
+        DataGridView1.Rows.Add("Coffee Latte", "1", CostOfItem)
+        AddCost()
+    End Sub
+
+    'Lays Button in the Items
+    Private Sub btnLaysClassic_Click(sender As Object, e As EventArgs) Handles btnLaysClassic.Click
+        Dim CostOfItem As Double = 189.25
+        For Each Row As DataGridViewRow In DataGridView1.Rows
+            lblPrices.Text = ("Lays Classic Potato Chips 184.2g" & ControlChars.CrLf & CostOfItem.ToString("C2"))
+            If Row.Cells(0).Value = "Lays Classic" Then
+                Row.Cells(1).Value = Double.Parse(Row.Cells(1).Value + 1)
+                Row.Cells(2).Value = Double.Parse(Row.Cells(1).Value) * CostOfItem
+                AddCost()
+                Exit Sub
+                AddCost()
+            End If
+        Next
+
+        DataGridView1.Rows.Add("Lays Classic", "1", CostOfItem)
+        AddCost()
+    End Sub
+
+    'Doritos Button in the Items
+    Private Sub btnDoritos_Click(sender As Object, e As EventArgs) Handles btnDoritos.Click
+        Dim CostOfItem As Double = 249.0
+        For Each Row As DataGridViewRow In DataGridView1.Rows
+            lblPrices.Text = ("Doritos Cool Ranch Chips 198g" & ControlChars.CrLf & CostOfItem.ToString("C2"))
+            If Row.Cells(0).Value = "Doritos Chips" Then
+                Row.Cells(1).Value = Double.Parse(Row.Cells(1).Value + 1)
+                Row.Cells(2).Value = Double.Parse(Row.Cells(1).Value) * CostOfItem
+                AddCost()
+                Exit Sub
+                AddCost()
+            End If
+        Next
+
+        DataGridView1.Rows.Add("Doritos Chips", "1", CostOfItem)
+        AddCost()
+    End Sub
+
+    'Chitz Button in the Items
+    Private Sub btnChitz_Click(sender As Object, e As EventArgs) Handles btnChitz.Click
+        Dim CostOfItem As Double = 99.0
+        For Each Row As DataGridViewRow In DataGridView1.Rows
+            lblPrices.Text = ("Hotz Cheese Sticks Chips 125g" & ControlChars.CrLf & CostOfItem.ToString("C2"))
+            If Row.Cells(0).Value = "Hotz Chips" Then
+                Row.Cells(1).Value = Double.Parse(Row.Cells(1).Value + 1)
+                Row.Cells(2).Value = Double.Parse(Row.Cells(1).Value) * CostOfItem
+                AddCost()
+                Exit Sub
+                AddCost()
+            End If
+        Next
+
+        DataGridView1.Rows.Add("Hotz Chips", "1", CostOfItem)
+        AddCost()
+    End Sub
+
+    'Wavy Button in the Items
+    Private Sub btnWavy_Click(sender As Object, e As EventArgs) Handles btnWavy.Click
+        Dim CostOfItem As Double = 198.0
+        For Each Row As DataGridViewRow In DataGridView1.Rows
+            lblPrices.Text = ("Lays Wavy Original Chips 184g" & ControlChars.CrLf & CostOfItem.ToString("C2"))
+            If Row.Cells(0).Value = "Lays Wavy" Then
+                Row.Cells(1).Value = Double.Parse(Row.Cells(1).Value + 1)
+                Row.Cells(2).Value = Double.Parse(Row.Cells(1).Value) * CostOfItem
+                AddCost()
+                Exit Sub
+                AddCost()
+            End If
+        Next
+
+        DataGridView1.Rows.Add("Lays Wavy", "1", CostOfItem)
+        AddCost()
+    End Sub
+
+    'Lorenz Button in the Items
+    Private Sub btnLorenz_Click(sender As Object, e As EventArgs) Handles btnLorenz.Click
+        Dim CostOfItem As Double = 287.0
+        For Each Row As DataGridViewRow In DataGridView1.Rows
+            lblPrices.Text = ("Lorenz Chipsletten Paprika 100g" & ControlChars.CrLf & CostOfItem.ToString("C2"))
+            If Row.Cells(0).Value = "Lorenz Chipsletten" Then
+                Row.Cells(1).Value = Double.Parse(Row.Cells(1).Value + 1)
+                Row.Cells(2).Value = Double.Parse(Row.Cells(1).Value) * CostOfItem
+                AddCost()
+                Exit Sub
+                AddCost()
+            End If
+        Next
+
+        DataGridView1.Rows.Add("Lorenz Chipsletten", "1", CostOfItem)
+        AddCost()
+    End Sub
+
+    'Tempura Button in the Items
+    Private Sub btnTempura_Click(sender As Object, e As EventArgs) Handles btnTempura.Click
+        Dim CostOfItem As Double = 150.0
+        For Each Row As DataGridViewRow In DataGridView1.Rows
+            lblPrices.Text = ("Shrimp Tempura 5pcs" & ControlChars.CrLf & CostOfItem.ToString("C2"))
+            If Row.Cells(0).Value = "Shrimp Tempura" Then
+                Row.Cells(1).Value = Double.Parse(Row.Cells(1).Value + 1)
+                Row.Cells(2).Value = Double.Parse(Row.Cells(1).Value) * CostOfItem
+                AddCost()
+                Exit Sub
+                AddCost()
+            End If
+        Next
+
+        DataGridView1.Rows.Add("Shrimp Tempura", "1", CostOfItem)
+        AddCost()
+    End Sub
+
+    'Wedges Button in the Items
+    Private Sub btnWedges_Click(sender As Object, e As EventArgs) Handles btnWedges.Click
+        Dim CostOfItem As Double = 189.99
+        For Each Row As DataGridViewRow In DataGridView1.Rows
+            lblPrices.Text = ("Potato Wedges Bucket with Dips" & ControlChars.CrLf & CostOfItem.ToString("C2"))
+            If Row.Cells(0).Value = "Wedges bckt with Dips" Then
+                Row.Cells(1).Value = Double.Parse(Row.Cells(1).Value + 1)
+                Row.Cells(2).Value = Double.Parse(Row.Cells(1).Value) * CostOfItem
+                AddCost()
+                Exit Sub
+                AddCost()
+            End If
+        Next
+
+        DataGridView1.Rows.Add("Wedges bckt with Dips", "1", CostOfItem)
+        AddCost()
+    End Sub
+
+    'Sausage Button in the Items
+    Private Sub btnSausage_Click(sender As Object, e As EventArgs) Handles btnSausage.Click
+        Dim CostOfItem As Double = 75.0
+        For Each Row As DataGridViewRow In DataGridView1.Rows
+            lblPrices.Text = ("Sausage Croissant 1 piece" & ControlChars.CrLf & CostOfItem.ToString("C2"))
+            If Row.Cells(0).Value = "Sausage Croissant" Then
+                Row.Cells(1).Value = Double.Parse(Row.Cells(1).Value + 1)
+                Row.Cells(2).Value = Double.Parse(Row.Cells(1).Value) * CostOfItem
+                AddCost()
+                Exit Sub
+                AddCost()
+            End If
+        Next
+
+        DataGridView1.Rows.Add("Sausage Croissant", "1", CostOfItem)
+        AddCost()
+    End Sub
+
+    'Eggs Button in the Items
+    Private Sub btnEggs_Click(sender As Object, e As EventArgs) Handles btnEggs.Click
+        Dim CostOfItem As Double = 60.0
+        For Each Row As DataGridViewRow In DataGridView1.Rows
+            lblPrices.Text = ("Fried Sunny Side-Up Eggs 2 pieces" & ControlChars.CrLf & CostOfItem.ToString("C2"))
+            If Row.Cells(0).Value = "Fried Eggs" Then
+                Row.Cells(1).Value = Double.Parse(Row.Cells(1).Value + 1)
+                Row.Cells(2).Value = Double.Parse(Row.Cells(1).Value) * CostOfItem
+                AddCost()
+                Exit Sub
+                AddCost()
+            End If
+        Next
+
+        DataGridView1.Rows.Add("Fried Eggs", "1", CostOfItem)
+        AddCost()
+    End Sub
+
+    'Salad Button in the Items
+    Private Sub btnSalad_Click(sender As Object, e As EventArgs) Handles btnSalad.Click
+        Dim CostOfItem As Double = 199.0
+        For Each Row As DataGridViewRow In DataGridView1.Rows
+            lblPrices.Text = ("Salad Set Package" & ControlChars.CrLf & CostOfItem.ToString("C2"))
+            If Row.Cells(0).Value = "Salad Set" Then
+                Row.Cells(1).Value = Double.Parse(Row.Cells(1).Value + 1)
+                Row.Cells(2).Value = Double.Parse(Row.Cells(1).Value) * CostOfItem
+                AddCost()
+                Exit Sub
+                AddCost()
+            End If
+        Next
+
+        DataGridView1.Rows.Add("Salad Set", "1", CostOfItem)
+        AddCost()
+    End Sub
+
+    'Fried Chicken Button in the Items
+    Private Sub btnFriedChicken_Click(sender As Object, e As EventArgs) Handles btnFriedChicken.Click
+        Dim CostOfItem As Double = 399.0
+        For Each Row As DataGridViewRow In DataGridView1.Rows
+            lblPrices.Text = ("1 Bucket Fried Chicken" & ControlChars.CrLf & CostOfItem.ToString("C2"))
+            If Row.Cells(0).Value = "Bckt Fried Chicken" Then
+                Row.Cells(1).Value = Double.Parse(Row.Cells(1).Value + 1)
+                Row.Cells(2).Value = Double.Parse(Row.Cells(1).Value) * CostOfItem
+                AddCost()
+                Exit Sub
+                AddCost()
+            End If
+        Next
+
+        DataGridView1.Rows.Add("Bckt Fried Chicken", "1", CostOfItem)
+        AddCost()
+    End Sub
+
+    'Pizza Button in the Items
+    Private Sub btnPizza_Click(sender As Object, e As EventArgs) Handles btnPizza.Click
+        Dim CostOfItem As Double = 520.5
+        For Each Row As DataGridViewRow In DataGridView1.Rows
+            lblPrices.Text = ("New York Style Pizza" & ControlChars.CrLf & CostOfItem.ToString("C2"))
+            If Row.Cells(0).Value = "NY style pizza" Then
+                Row.Cells(1).Value = Double.Parse(Row.Cells(1).Value + 1)
+                Row.Cells(2).Value = Double.Parse(Row.Cells(1).Value) * CostOfItem
+                AddCost()
+                Exit Sub
+                AddCost()
+            End If
+        Next
+
+        DataGridView1.Rows.Add("NY style pizza", "1", CostOfItem)
+        AddCost()
+    End Sub
+
+    'Burger Button in the Items
+    Private Sub btnBurger_Click(sender As Object, e As EventArgs) Handles btnBurger.Click
+        Dim CostOfItem As Double = 150.0
+        For Each Row As DataGridViewRow In DataGridView1.Rows
+            lblPrices.Text = ("Extra Champ Burger" & ControlChars.CrLf & CostOfItem.ToString("C2"))
+            If Row.Cells(0).Value = "Champ Burger" Then
+                Row.Cells(1).Value = Double.Parse(Row.Cells(1).Value + 1)
+                Row.Cells(2).Value = Double.Parse(Row.Cells(1).Value) * CostOfItem
+                AddCost()
+                Exit Sub
+                AddCost()
+            End If
+        Next
+
+        DataGridView1.Rows.Add("Champ Burger", "1", CostOfItem)
+        AddCost()
+    End Sub
+
+    'Hotdog Button in the Items
+    Private Sub btnHotDog_Click(sender As Object, e As EventArgs) Handles btnHotDog.Click
+        Dim CostOfItem As Double = 50.0
+        For Each Row As DataGridViewRow In DataGridView1.Rows
+            lblPrices.Text = ("Hotdog Sandwich" & ControlChars.CrLf & CostOfItem.ToString("C2"))
+            If Row.Cells(0).Value = "Hotdog Sandwich" Then
+                Row.Cells(1).Value = Double.Parse(Row.Cells(1).Value + 1)
+                Row.Cells(2).Value = Double.Parse(Row.Cells(1).Value) * CostOfItem
+                AddCost()
+                Exit Sub
+                AddCost()
+            End If
+        Next
+
+        DataGridView1.Rows.Add("Hotdog Sandwich", "1", CostOfItem)
+        AddCost()
+    End Sub
+
+    'Fries Button in the Items
+    Private Sub btnFries_Click(sender As Object, e As EventArgs) Handles btnFries.Click
+        Dim CostOfItem As Double = 50.0
+        For Each Row As DataGridViewRow In DataGridView1.Rows
+            lblPrices.Text = ("French Fries Medium Siza" & ControlChars.CrLf & CostOfItem.ToString("C2"))
+            If Row.Cells(0).Value = "French Fries" Then
+                Row.Cells(1).Value = Double.Parse(Row.Cells(1).Value + 1)
+                Row.Cells(2).Value = Double.Parse(Row.Cells(1).Value) * CostOfItem
+                AddCost()
+                Exit Sub
+                AddCost()
+            End If
+        Next
+
+        DataGridView1.Rows.Add("French Fries", "1", CostOfItem)
         AddCost()
     End Sub
 End Class
