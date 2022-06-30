@@ -1,4 +1,12 @@
-﻿Public Class Main
+﻿'Name of the Program         POS Fast Food Shop
+'Developer                   G.T. Ballesteros
+'Date                        June 28, 2022
+'Purpose                     This is a point of sale system in a fast food shop
+'                            and this you can pick items and calculate the amount
+'                            and also to print recipt.
+
+Imports System.Drawing.Printing
+Public Class Main
 
     'Calculate the Total and Tax of the Items
     Private Function Cost_Of_Items() As Double
