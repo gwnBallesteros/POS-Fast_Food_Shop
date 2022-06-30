@@ -528,10 +528,10 @@ Public Class Main
         Dim dtmSystemDateTime As Date
         dtmSystemDateTime = Now
 
-        Dim f8 As New Font("Calibri", 8, FontStyle.Regular)
+        Dim f8 As New Font("Franklin Gothic Medium", 8, FontStyle.Regular)
         Dim f10 As New Font("Calibri", 10, FontStyle.Regular)
         Dim f10b As New Font("Calibri", 10, FontStyle.Bold)
-        Dim f14 As New Font("Calibri", 14, FontStyle.Bold)
+        Dim f14 As New Font("Tahoma", 14, FontStyle.Bold)
 
         Dim leftmargin As Integer = PD.DefaultPageSettings.Margins.Left
         Dim centermargin As Integer = PD.DefaultPageSettings.PaperSize.Width / 2
