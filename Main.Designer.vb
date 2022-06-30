@@ -361,6 +361,7 @@ Partial Class Main
         'btnPrint
         '
         Me.btnPrint.BackColor = System.Drawing.Color.White
+        Me.btnPrint.Enabled = False
         Me.btnPrint.Font = New System.Drawing.Font("Franklin Gothic Demi", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnPrint.Location = New System.Drawing.Point(194, 87)
         Me.btnPrint.Name = "btnPrint"

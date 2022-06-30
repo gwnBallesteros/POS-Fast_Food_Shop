@@ -55,17 +55,20 @@
     Private Sub NumbersOnly(sender As Object, e As EventArgs) Handles btnZero.Click, btnTwo.Click, btnThree.Click, btnSix.Click, btnSeven.Click, btnOne.Click, btnNine.Click, btnFour.Click, btnFive.Click, btnEight.Click, btnDot.Click
         Dim b As Button = sender
 
-        If (lblCash.Text = "0") Then
-            lblCash.Text = ""
+        If (lblCash.Text = "0" And lblCashIn.Text = "0") Then
+            lblCash.Text = String.Empty
+            lblCash.Text = String.Empty
             lblCash.Text = b.Text
+            lblCashIn.Text = b.Text
 
         ElseIf (b.Text = ".") Then
-            If (Not lblCash.Text.Contains(".")) Then
+            If (Not lblCash.Text.Contains(".") And Not lblCashIn.Text.Contains(".")) Then
                 lblCash.Text = lblCash.Text + b.Text
+                lblCashIn.Text = lblCashIn.Text + b.Text
             End If
         Else
             lblCash.Text = lblCash.Text + b.Text
-            lblCashIn.Text = lblCash.Text
+            lblCashIn.Text = lblCashIn.Text + b.Text
         End If
     End Sub
 
@@ -96,6 +99,8 @@
 
     'Pay Button
     Private Sub btnPay_Click(sender As Object, e As EventArgs) Handles btnPay.Click
+        btnPrint.Enabled = True
+
         If (cboMop.Text = "Cash") Then
             Change()
         Else
@@ -122,7 +127,7 @@
 
     'Coke Button in the Items
     Private Sub btnCoke_Click(sender As Object, e As EventArgs) Handles btnCoke.Click
-        Dim CostOfItem As Double = 28.0
+        Dim CostOfItem As Double = 34.0
         For Each Row As DataGridViewRow In DataGridView1.Rows
             lblPrices.Text = ("Beverage Can Coca-Cola 330ml" & ControlChars.CrLf & CostOfItem.ToString("C2"))
             If Row.Cells(0).Value = "Can Coca-Cola" Then
@@ -130,16 +135,17 @@
                 Row.Cells(2).Value = Double.Parse(Row.Cells(1).Value) * CostOfItem
                 AddCost()
                 Exit Sub
+                AddCost()
             End If
         Next
 
         DataGridView1.Rows.Add("Can Coca-Cola", "1", CostOfItem)
-
+        AddCost()
     End Sub
 
-    'Fanta Buttons in the Items
+    'Fanta Button in the Items
     Private Sub btnFanta_Click(sender As Object, e As EventArgs) Handles btnFanta.Click
-        Dim CostOfItem As Double = 26.0
+        Dim CostOfItem As Double = 36.0
         For Each Row As DataGridViewRow In DataGridView1.Rows
             lblPrices.Text = ("Beverage Can Fanta 330ml" & ControlChars.CrLf & CostOfItem.ToString("C2"))
             If Row.Cells(0).Value = "Can Fanta" Then
@@ -147,9 +153,29 @@
                 Row.Cells(2).Value = Double.Parse(Row.Cells(1).Value) * CostOfItem
                 AddCost()
                 Exit Sub
+                AddCost()
             End If
         Next
 
         DataGridView1.Rows.Add("Can Fanta", "1", CostOfItem)
+        AddCost()
+    End Sub
+
+    'Soju Button in the Items
+    Private Sub btnSoju_Click(sender As Object, e As EventArgs) Handles btnSoju.Click
+        Dim CostOfItem As Double = 149.0
+        For Each Row As DataGridViewRow In DataGridView1.Rows
+            lblPrices.Text = ("Jinro Chamisul Oiginal Soju 360ml" & ControlChars.CrLf & CostOfItem.ToString("C2"))
+            If Row.Cells(0).Value = "Soju Orig" Then
+                Row.Cells(1).Value = Double.Parse(Row.Cells(1).Value + 1)
+                Row.Cells(2).Value = Double.Parse(Row.Cells(1).Value) * CostOfItem
+                AddCost()
+                Exit Sub
+                AddCost()
+            End If
+        Next
+
+        DataGridView1.Rows.Add("Soju Orig", "1", CostOfItem)
+        AddCost()
     End Sub
 End Class
