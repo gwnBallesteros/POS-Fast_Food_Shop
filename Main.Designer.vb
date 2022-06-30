@@ -89,6 +89,8 @@ Partial Class Main
         Me.lblTotal = New System.Windows.Forms.Label()
         Me.lblTax = New System.Windows.Forms.Label()
         Me.lblSubTotal = New System.Windows.Forms.Label()
+        Me.PrintDocument1 = New System.Drawing.Printing.PrintDocument()
+        Me.PrintDialog1 = New System.Windows.Forms.PrintDialog()
         Me.pnlBackground.SuspendLayout()
         Me.pnlItems.SuspendLayout()
         Me.pnlControls.SuspendLayout()
@@ -474,7 +476,7 @@ Partial Class Main
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3})
         Me.DataGridView1.Location = New System.Drawing.Point(773, 130)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.RowHeadersWidth = 51
+        Me.DataGridView1.RowHeadersWidth = 35
         Me.DataGridView1.RowTemplate.Height = 24
         Me.DataGridView1.Size = New System.Drawing.Size(439, 423)
         Me.DataGridView1.TabIndex = 3
@@ -815,6 +817,13 @@ Partial Class Main
         Me.lblSubTotal.Size = New System.Drawing.Size(235, 35)
         Me.lblSubTotal.TabIndex = 8
         '
+        'PrintDocument1
+        '
+        '
+        'PrintDialog1
+        '
+        Me.PrintDialog1.UseEXDialog = True
+        '
         'Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(120.0!, 120.0!)
@@ -913,4 +922,6 @@ Partial Class Main
     Friend WithEvents Label15 As Label
     Friend WithEvents Label14 As Label
     Friend WithEvents Label13 As Label
+    Friend WithEvents PrintDocument1 As Printing.PrintDocument
+    Friend WithEvents PrintDialog1 As PrintDialog
 End Class
