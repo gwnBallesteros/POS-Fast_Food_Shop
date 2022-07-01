@@ -549,11 +549,11 @@ Public Class Main
 
         Dim rand As New Random
         Dim intInvoice As Integer
-        intInvoice = rand.Next(1000000)
+        intInvoice = rand.Next(1000000) + 100000
 
         'range from top
         e.Graphics.DrawString("24/7 Fast Food Shop", f14, Brushes.Black, centermargin, 5, center)
-        e.Graphics.DrawString("Massachussets Street 27 Avenue, Clark", f10, Brushes.Black, centermargin, 25, center)
+        e.Graphics.DrawString("Massachussetts Street 27 Avenue, Clark", f10, Brushes.Black, centermargin, 25, center)
         e.Graphics.DrawString("Tel +0967827384", f10, Brushes.Black, centermargin, 40, center)
 
         e.Graphics.DrawString("Invoice ID", f8, Brushes.Black, 0, 60)
@@ -562,7 +562,7 @@ Public Class Main
 
         e.Graphics.DrawString("Cashier", f8, Brushes.Black, 0, 75)
         e.Graphics.DrawString(":", f8, Brushes.Black, 50, 75)
-        e.Graphics.DrawString("Elon Musk", f8, Brushes.Black, 70, 75)
+        e.Graphics.DrawString("James Bond", f8, Brushes.Black, 70, 75)
 
         e.Graphics.DrawString(dtmSystemDateTime, f8, Brushes.Black, 0, 90)
 
