@@ -20,6 +20,7 @@ Public Class Main
         Return Sum
     End Function
 
+    'Function AddCost
     Sub AddCost()
         Dim tax, q As Double
         tax = 0.12
@@ -32,6 +33,7 @@ Public Class Main
         End If
     End Sub
 
+    'Function for Change
     Sub Change()
         Dim tax, q, c As Double
         tax = 0.12
@@ -136,6 +138,7 @@ Public Class Main
         btnPrint.Enabled = False
     End Sub
 
+    'ITEMS
     'Coke Button in the Items
     Private Sub btnCoke_Click(sender As Object, e As EventArgs) Handles btnCoke.Click
         Dim CostOfItem As Double = 34.0
@@ -356,7 +359,7 @@ Public Class Main
     Private Sub btnSausage_Click(sender As Object, e As EventArgs) Handles btnSausage.Click
         Dim CostOfItem As Double = 75.0
         For Each Row As DataGridViewRow In DataGridView1.Rows
-            lblPrices.Text = ("Sausage Croissant 1 piece" & ControlChars.CrLf & CostOfItem.ToString("C2"))
+            lblPrices.Text = ("Sausage Croissant per piece" & ControlChars.CrLf & CostOfItem.ToString("C2"))
             If Row.Cells(0).Value = "Sausage Croissant" Then
                 Row.Cells(1).Value = Double.Parse(Row.Cells(1).Value + 1)
                 Row.Cells(2).Value = Double.Parse(Row.Cells(1).Value) * CostOfItem
@@ -482,7 +485,7 @@ Public Class Main
     Private Sub btnFries_Click(sender As Object, e As EventArgs) Handles btnFries.Click
         Dim CostOfItem As Double = 50.0
         For Each Row As DataGridViewRow In DataGridView1.Rows
-            lblPrices.Text = ("French Fries Medium Siza" & ControlChars.CrLf & CostOfItem.ToString("C2"))
+            lblPrices.Text = ("French Fries Medium Size" & ControlChars.CrLf & CostOfItem.ToString("C2"))
             If Row.Cells(0).Value = "French Fries" Then
                 Row.Cells(1).Value = Double.Parse(Row.Cells(1).Value + 1)
                 Row.Cells(2).Value = Double.Parse(Row.Cells(1).Value) * CostOfItem
@@ -501,6 +504,8 @@ Public Class Main
     Dim WithEvents PD As New PrintDocument
     Dim PPD As New PrintPreviewDialog
     Dim longpaper As Integer
+
+    'Size of Paper
     Sub changelongpaper()
         Dim rowcount As Integer
         longpaper = 0
@@ -547,6 +552,7 @@ Public Class Main
         Dim line As String
         line = "--------------------------------------------------------------------------"
 
+        'Generate random numbers for Invoice ID
         Dim rand As New Random
         Dim intInvoice As Integer
         intInvoice = rand.Next(1000000) + 100000
