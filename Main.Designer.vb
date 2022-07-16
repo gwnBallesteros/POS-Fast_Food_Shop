@@ -110,7 +110,7 @@ Partial Class Main
         '
         'pnlBackground
         '
-        Me.pnlBackground.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.fast_food_background_top_view_on_black_background_vector_24044795
+        Me.pnlBackground.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.fast_food_background_top_view_on_black_background_vector_240447951
         Me.pnlBackground.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.pnlBackground.Controls.Add(Me.pnlItems)
         Me.pnlBackground.Controls.Add(Me.pnlControls)
@@ -121,7 +121,7 @@ Partial Class Main
         Me.pnlBackground.Controls.Add(Me.pnlTotal)
         Me.pnlBackground.Location = New System.Drawing.Point(0, 0)
         Me.pnlBackground.Name = "pnlBackground"
-        Me.pnlBackground.Size = New System.Drawing.Size(1627, 819)
+        Me.pnlBackground.Size = New System.Drawing.Size(1627, 750)
         Me.pnlBackground.TabIndex = 1
         '
         'pnlItems

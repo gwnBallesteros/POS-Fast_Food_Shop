@@ -153,6 +153,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property fast_food_background_top_view_on_black_background_vector_240447951() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("fast-food-background-top-view-on-black-background-vector-240447951", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property fast_food_poster_vector_3532703() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("fast-food-poster-vector-3532703", resourceCulture)

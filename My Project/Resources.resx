@@ -127,6 +127,9 @@
   <data name="Potato Wedges.G03.watermarked.2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Potato Wedges.G03.watermarked.2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Veggie Burger.G08.watermarked.2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Veggie Burger.G08.watermarked.2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Cartoon French fries.G03.watermarked.2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Cartoon French fries.G03.watermarked.2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,8 +139,8 @@
   <data name="Fried Shrimp Noodle Soup.G03.watermarked.2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Fried Shrimp Noodle Soup.G03.watermarked.2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cartoon Chicken Bucket.G03.watermarked.2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Cartoon Chicken Bucket.G03.watermarked.2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Beverage Can Fanta Mezzo 330ml.G01.watermarked.2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Beverage Can Fanta Mezzo 330ml.G01.watermarked.2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Disposable Cup with Coffee.G03.watermarked.2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Disposable Cup with Coffee.G03.watermarked.2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,8 +163,8 @@
   <data name="AdeZ Surprising Soy Drink 800ml.G03.watermarked.2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\AdeZ Surprising Soy Drink 800ml.G03.watermarked.2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Beverage Can Fanta Mezzo 330ml.G01.watermarked.2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Beverage Can Fanta Mezzo 330ml.G01.watermarked.2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cartoon Chicken Bucket.G03.watermarked.2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Cartoon Chicken Bucket.G03.watermarked.2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fast-food-poster-vector-3532703" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\fast-food-poster-vector-3532703.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,7 +187,7 @@
   <data name="Doritos Cool Ranch Chips.G03.watermarked.2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Doritos Cool Ranch Chips.G03.watermarked.2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Veggie Burger.G08.watermarked.2k" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Veggie Burger.G08.watermarked.2k.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fast-food-background-top-view-on-black-background-vector-240447951" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\fast-food-background-top-view-on-black-background-vector-24044795.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
