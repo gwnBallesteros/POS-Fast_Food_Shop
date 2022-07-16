@@ -429,9 +429,9 @@ Public Class Main
 
     'Pizza Button in the Items
     Private Sub btnPizza_Click(sender As Object, e As EventArgs) Handles btnPizza.Click
-        Dim CostOfItem As Double = 98.75
+        Dim CostOfItem As Double = 298.75
         For Each Row As DataGridViewRow In DataGridView1.Rows
-            lblPrices.Text = ("New York Style Pizza per slice" & ControlChars.CrLf & CostOfItem.ToString("C2"))
+            lblPrices.Text = ("New York Style Pizza" & ControlChars.CrLf & CostOfItem.ToString("C2"))
             If Row.Cells(0).Value = "NY style pizza" Then
                 Row.Cells(1).Value = Double.Parse(Row.Cells(1).Value + 1)
                 Row.Cells(2).Value = Double.Parse(Row.Cells(1).Value) * CostOfItem

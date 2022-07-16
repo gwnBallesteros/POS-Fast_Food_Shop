@@ -32,7 +32,7 @@ Partial Class Splash
         '
         'Panel1
         '
-        Me.Panel1.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Splashone
+        Me.Panel1.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.fast_food_poster_vector_3532703
         Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Panel1.Controls.Add(Me.ProgressBar1)
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
@@ -54,6 +54,8 @@ Partial Class Splash
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.fast_food_poster_vector_3532703
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(592, 356)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None

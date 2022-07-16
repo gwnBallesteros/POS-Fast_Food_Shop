@@ -23,6 +23,8 @@ Partial Class Main
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Main))
+        Me.PrintDocument1 = New System.Drawing.Printing.PrintDocument()
+        Me.PrintDialog1 = New System.Windows.Forms.PrintDialog()
         Me.pnlBackground = New System.Windows.Forms.Panel()
         Me.pnlItems = New System.Windows.Forms.Panel()
         Me.btnCoffee = New System.Windows.Forms.Button()
@@ -89,8 +91,6 @@ Partial Class Main
         Me.lblTotal = New System.Windows.Forms.Label()
         Me.lblTax = New System.Windows.Forms.Label()
         Me.lblSubTotal = New System.Windows.Forms.Label()
-        Me.PrintDocument1 = New System.Drawing.Printing.PrintDocument()
-        Me.PrintDialog1 = New System.Windows.Forms.PrintDialog()
         Me.pnlBackground.SuspendLayout()
         Me.pnlItems.SuspendLayout()
         Me.pnlControls.SuspendLayout()
@@ -104,9 +104,13 @@ Partial Class Main
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
+        'PrintDialog1
+        '
+        Me.PrintDialog1.UseEXDialog = True
+        '
         'pnlBackground
         '
-        Me.pnlBackground.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.BR
+        Me.pnlBackground.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.fast_food_background_top_view_on_black_background_vector_24044795
         Me.pnlBackground.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.pnlBackground.Controls.Add(Me.pnlItems)
         Me.pnlBackground.Controls.Add(Me.pnlControls)
@@ -117,7 +121,7 @@ Partial Class Main
         Me.pnlBackground.Controls.Add(Me.pnlTotal)
         Me.pnlBackground.Location = New System.Drawing.Point(0, 0)
         Me.pnlBackground.Name = "pnlBackground"
-        Me.pnlBackground.Size = New System.Drawing.Size(1627, 759)
+        Me.pnlBackground.Size = New System.Drawing.Size(1627, 819)
         Me.pnlBackground.TabIndex = 1
         '
         'pnlItems
@@ -150,7 +154,7 @@ Partial Class Main
         '
         'btnCoffee
         '
-        Me.btnCoffee.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Disposable_Cup_with_Coffee_G06_watermarked_2k
+        Me.btnCoffee.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Disposable_Cup_with_Coffee_G03_watermarked_2k
         Me.btnCoffee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.btnCoffee.Location = New System.Drawing.Point(586, 404)
         Me.btnCoffee.Name = "btnCoffee"
@@ -180,7 +184,7 @@ Partial Class Main
         '
         'btnFanta
         '
-        Me.btnFanta.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Beverage_Can_Fanta_Mezzo_330ml_G03_watermarked_2k
+        Me.btnFanta.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Beverage_Can_Fanta_Mezzo_330ml_G01_watermarked_2k
         Me.btnFanta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.btnFanta.Location = New System.Drawing.Point(152, 404)
         Me.btnFanta.Name = "btnFanta"
@@ -310,7 +314,7 @@ Partial Class Main
         '
         'btnHotDog
         '
-        Me.btnHotDog.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Hot_Dog_with_Mustard_G03_watermarked_2k
+        Me.btnHotDog.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Hot_Dog_with_Ketchup_Mustard_G03_watermarked_2k
         Me.btnHotDog.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.btnHotDog.Location = New System.Drawing.Point(442, 1)
         Me.btnHotDog.Name = "btnHotDog"
@@ -320,7 +324,7 @@ Partial Class Main
         '
         'btnBurger
         '
-        Me.btnBurger.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Veggie_Burger_G16_watermarked_2k
+        Me.btnBurger.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Veggie_Burger_G08_watermarked_2k
         Me.btnBurger.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.btnBurger.Location = New System.Drawing.Point(297, 1)
         Me.btnBurger.Name = "btnBurger"
@@ -330,7 +334,7 @@ Partial Class Main
         '
         'btnPizza
         '
-        Me.btnPizza.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.New_York_Style_Pizza_G01_watermarked_2k
+        Me.btnPizza.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Pizza_in_Box_G03_watermarked_2k
         Me.btnPizza.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.btnPizza.Location = New System.Drawing.Point(152, 1)
         Me.btnPizza.Name = "btnPizza"
@@ -429,7 +433,8 @@ Partial Class Main
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.POS_Fast_Food_Shop.My.Resources.Resources.Food_Restaurant__24_Hours_G02_watermarked1
+        Me.PictureBox1.BackgroundImage = Global.POS_Fast_Food_Shop.My.Resources.Resources.Hamburger_Icon_G01_watermarked_2k
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.PictureBox1.Location = New System.Drawing.Point(9, 15)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(146, 136)
@@ -816,10 +821,6 @@ Partial Class Main
         Me.lblSubTotal.Name = "lblSubTotal"
         Me.lblSubTotal.Size = New System.Drawing.Size(235, 35)
         Me.lblSubTotal.TabIndex = 8
-        '
-        'PrintDialog1
-        '
-        Me.PrintDialog1.UseEXDialog = True
         '
         'Main
         '

@@ -73,16 +73,6 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Background() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("Background", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
         Friend ReadOnly Property Beverage_Can_Coca_Cola_330ml_Tall_G03_watermarked_2k() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Beverage Can Coca-Cola 330ml Tall.G03.watermarked.2k", resourceCulture)
@@ -93,29 +83,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Beverage_Can_Fanta_Mezzo_330ml_G03_watermarked_2k() As System.Drawing.Bitmap
+        Friend ReadOnly Property Beverage_Can_Fanta_Mezzo_330ml_G01_watermarked_2k() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Beverage Can Fanta Mezzo 330ml.G03.watermarked.2k", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property Beverage_Can_Sprite_330ml_G03_watermarked_2k() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("Beverage Can Sprite 330ml.G03.watermarked.2k", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property BR() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("BR", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Beverage Can Fanta Mezzo 330ml.G01.watermarked.2k", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -153,9 +123,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Disposable_Cup_with_Coffee_G06_watermarked_2k() As System.Drawing.Bitmap
+        Friend ReadOnly Property Disposable_Cup_with_Coffee_G03_watermarked_2k() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Disposable Cup with Coffee.G06.watermarked.2k", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Disposable Cup with Coffee.G03.watermarked.2k", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -173,9 +143,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Food_Restaurant__24_Hours_G02_watermarked_2k() As System.Drawing.Bitmap
+        Friend ReadOnly Property fast_food_background_top_view_on_black_background_vector_24044795() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Food Restaurant  24 Hours.G02.watermarked.2k", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("fast-food-background-top-view-on-black-background-vector-24044795", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -183,9 +153,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Food_Restaurant__24_Hours_G02_watermarked1() As System.Drawing.Bitmap
+        Friend ReadOnly Property fast_food_poster_vector_3532703() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Food Restaurant  24 Hours.G02.watermarked1", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("fast-food-poster-vector-3532703", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -213,9 +183,19 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Hot_Dog_with_Mustard_G03_watermarked_2k() As System.Drawing.Bitmap
+        Friend ReadOnly Property Hamburger_Icon_G01_watermarked_2k() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Hot Dog with Mustard.G03.watermarked.2k", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Hamburger Icon.G01.watermarked.2k", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Hot_Dog_with_Ketchup_Mustard_G03_watermarked_2k() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Hot Dog with Ketchup Mustard.G03.watermarked.2k", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -243,9 +223,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property New_York_Style_Pizza_G01_watermarked_2k() As System.Drawing.Bitmap
+        Friend ReadOnly Property Pizza_in_Box_G03_watermarked_2k() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("New York Style Pizza.G01.watermarked.2k", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Pizza in Box.G03.watermarked.2k", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -256,16 +236,6 @@ Namespace My.Resources
         Friend ReadOnly Property Potato_Wedges_G03_watermarked_2k() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Potato Wedges.G03.watermarked.2k", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property Potato_Wedges_G10_watermarked_2k() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("Potato Wedges.G10.watermarked.2k", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -303,29 +273,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Splash() As System.Drawing.Bitmap
+        Friend ReadOnly Property Veggie_Burger_G08_watermarked_2k() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Splash", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property Splashone() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("Splashone", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Looks up a localized resource of type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property Veggie_Burger_G16_watermarked_2k() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("Veggie Burger.G16.watermarked.2k", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("Veggie Burger.G08.watermarked.2k", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
